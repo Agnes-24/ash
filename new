@@ -1,0 +1,79 @@
+ yum update
+    2  yum install git -y
+    3  git --version
+    4  mkdir git
+    5  cd git
+    6  git init
+    7  cd .git
+    8  ls -lrta
+    9  cd ..
+   10  vi test
+   11  git add test
+   12  git commit -m "1st commit"
+   13  git log
+   14  git config user.name "Nancy"
+   15  git config user.email "nan@gmail.com"
+   16  git log
+   17  vi test
+   18  git commit -am "2nd commit"
+   19  git log
+   20  git status
+   21  ls -ltr
+   22  cd f
+   23  cd git/
+   24  ls -ltr
+   25  git remote add test https://github.com/Agnes-24/ash.git
+   26  git branch -M master
+   27  git push -u test master
+   28  git branch
+   29  git branch dev
+   30  git checkout dev
+   31  ls-lrt
+   32  ls-ltr
+   33  ls
+   34  vi test
+   35  git add test
+   36  git commit -m "3rd"
+   37  git checkout master
+   38  git merge dev
+   39  vi test
+   40  git status
+   41  git add test
+   42  git status
+   43  git commit -m "4th"
+   44  git checkout dev
+   45  git rebase master
+   46  vi test
+   47  git checkout master
+   48  vi test
+   49  git commit -am "5th"
+   50  git checkout dev
+   51  vi test
+   52  git commit -am "6th"
+   53  git merge master
+   54  git config --global merge.tool vim diff
+   55  git config --global merge.conflict style diff3
+   56  git config --global mergetool.prompt false
+   57  git config -l
+   58  git mergetool
+   59  vi test
+   60  git commit -am "6th"
+   61  git merge master
+   62  git checkout master
+   63  vi test
+   64  git commit -am "7h"
+   65  git log
+   66  git status
+   67  git log --oneline
+   68  git checkout dev
+   69  git cherry-pick 4173d62
+   70  yum update
+   71  yum upgrade
+   72  ls
+   73  cd git
+   74  ls
+   75  vi test
+   76  git add test
+   77  git commit -m "final"
+   78  vi test.orig
+   79  history
